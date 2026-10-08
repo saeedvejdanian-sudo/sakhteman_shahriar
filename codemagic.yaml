@@ -4,7 +4,8 @@ workflows:
     instance_type: standard
     max_build_duration: 15
     environment:
-      flutter: 3.24.0
+      flutter: 3.22.0
+      java: 17
     scripts:
       - flutter pub get
       - flutter build apk --release
